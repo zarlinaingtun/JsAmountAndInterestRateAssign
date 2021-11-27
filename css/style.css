@@ -1,0 +1,122 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+
+    background-color: rgb(177, 24, 248);
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: 0;
+    margin: 20px 0;
+    text-shadow: 1px 3px 10px rgba(0,0,0,0.4);
+
+    position: fixed;
+    top:50px;
+}
+h1 b{
+    font-size: 5rem;
+    text-shadow: 1px 10px 10px rgba(0,0,0,0.4);
+    
+}
+.cup{
+    width: 700px;
+    height: 120px;
+    font-size: 20px;
+    background-color: rgb(24, 24, 233);
+    border: 2px solid silver;
+    border-radius: 100px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    overflow: hidden;
+}
+.current{
+    height: 100%;
+    width: 350px;
+    background-color: red;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.current #currentamount,.interest #interestamount{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    color:silver;
+}
+.interest{
+    height: 100%;
+    /* width: 275px; */
+
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(245, 217, 59);
+    color:gray;
+
+    box-shadow:1px 5px 10px rgba(0,0,0,0.4);
+    padding: 0px 3px;
+    margin: 0 10px;
+    
+    border-radius: 5px;
+    
+    text-align: center;
+    line-height: 50px;
+
+    cursor: pointer;
+
+}
+.btn:active,.add:active,.subtract:active{
+    transform: scale(0.98);
+}
+.calculate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 100px;
+}
+.add,.subtract{
+    padding: 10px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(10, 126, 10);
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+    font-size: 16px;
+    
+    margin: 0 5px;
+
+    cursor: pointer;
+   
+}
+button:nth-of-type(2){
+    background-color: crimson;
+}
